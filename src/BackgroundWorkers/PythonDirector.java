@@ -24,7 +24,8 @@ public class PythonDirector {
 
         String pythonArguments = "";
         // Ne sachant pas d'avance combien d'argument on va appeler, on va mettre une seule longue chaine
-        // de caracteres avec un délimiteur bien indentifiable (ici '@') sur lequel on va iterer en python
+        // de caracteres avec un délimiteur bien indentifiable (ici '@') sur lequel on va iterer en python.
+        // Nota : on ne peut transmettre que des strings. Pour ce qui est trop contraignant --> fichiers (txt, csv, ...)
         switch (functionID){
             case "1":
                 // Ici je sais que je suis dans la fonction 1, j'ai donc besoin de trois arguments.
